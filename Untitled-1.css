@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnsy Finance Easy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .bg-gradient-custom {
+            background: linear-gradient(to bottom right, #1e40af, #15803d);
+        }
+        .bg-gradient-button {
+            background: linear-gradient(to right, #1e40af, #15803d);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gradient-custom text-white">
+    <header class="bg-white/10 backdrop-blur-md text-center py-6">
+        <h1 class="text-4xl font-bold text-shadow">Finnsy Finance Easy</h1>
+    </header>
+    <main class="flex-1 flex flex-col justify-center items-center p-6">
+        <div class="text-center max-w-2xl mb-8 bg-white/10 backdrop-blur-md p-6 rounded-lg">
+            <h2 class="text-2xl font-semibold text-blue-100 mb-4">Educación Financiera y Tecnología</h2>
+            <p class="text-lg leading-relaxed">
+                Bienvenido a Finnsy Finance Easy, donde la educación financiera se fusiona con la innovación tecnológica. 
+                Estamos aquí para simplificar tus finanzas y potenciar tu futuro económico con soluciones modernas y accesibles.
+            </p>
+        </div>
+        <a 
+            href="https://wa.me/573222954572" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-gradient-button text-white text-center py-4 px-8 text-lg rounded-full transition-transform hover:-translate-y-1 hover:shadow-lg"
+        >
+            Chatear en WhatsApp
+        </a>
+    </main>
+</body>
+</html>
